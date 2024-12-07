@@ -1,0 +1,116 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    background: linear-gradient(to bottom, #3b3b3b, #1f1f1f);
+    color: #eae4c9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Encabezado */
+.header {
+    background: linear-gradient(to right, #6e4c2c, #3e2a18);
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 5px solid #8a5a32;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: #eae4c9;
+    text-shadow: 0 2px 4px #000;
+    background: url('https://via.placeholder.com/800x100?text=Runas') repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Barra de Navegación */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    margin: 0;
+    background: #3e2a18;
+    border-top: 3px solid #6e4c2c;
+    border-bottom: 3px solid #6e4c2c;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #eae4c9;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f4d03f;
+    text-shadow: 0 0 10px #f4d03f;
+}
+
+/* Contenido Principal */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 6rem;
+    flex-wrap: wrap;
+    background: #2a2a2a;
+    border-top: 5px solid #8a5a32;
+    border-bottom: 5px solid #8a5a32;
+}
+
+.card {
+    background: #6e4c2c;
+    border: 3px solid #8a5a32;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.card h2 {
+    color: #f4d03f;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px #000;
+}
+
+.card p {
+    color: #eae4c9;
+}
+
+/* Pie de Página */
+.footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #3b3b3b;
+    color: #eae4c9;
+    border-top: 5px solid #8a5a32;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
+.responsive-video {
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Ancho máximo opcional */
+    border: 2px solid #000; /* Opcional: Estilo adicional */
+}

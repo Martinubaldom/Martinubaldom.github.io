@@ -1,0 +1,82 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header y navegación */
+header {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff4500;
+}
+
+/* Sección Nosotros */
+.nosotros {
+  background: linear-gradient(to right, #4e73df, #1cc88a);
+  padding: 4rem 0;
+  text-align: center;
+  color: white;
+}
+
+.nosotros .contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nosotros h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.nosotros p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
